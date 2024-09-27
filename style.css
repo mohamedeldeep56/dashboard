@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+    
+}
+body{
+    display: flex;
+background-color: rgb(51, 78, 105);
+}
+
+
+.photo{
+    width: 100px; 
+    height: 100px;
+    
+}
+.photo img{
+    width: 70px;
+    height: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.depoo:hover{
+    width: 260px;
+}
+
+
+.depoo{
+    background-color: rgb(28, 110, 102);
+    width: 60px;
+    height:100vh ;
+    padding: 20px;
+    overflow: hidden;
+    
+    
+  }
+  ul{
+    list-style: none;
+    position: relative;
+    height: 70vh; 
+    color: aliceblue;
+  }
+   ul li a{
+    display: block;
+    padding: 10px;
+    margin: 10;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+   gap: 60px;
+    border-radius:20px ;
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+    
+}
+ul li a:hover{
+    background-color: rgb(134, 37, 37);
+}
+.log-out{
+position: absolute;  
+bottom: 0;
+width: 100%;   
+
+}
+.log-out a{
+    background-color: rgb(209, 70, 70);
+}
+ul li a i{
+font-size: 20;
+color: white;
+
+}
+.photoedit{
+    display: flex;
+   align-items: center;
+   gap: 15px;
+    text-transform: capitalize;
+color: white;
+}
+.p1{
+ background-color:#70d2a6 ;
+color:rgb(129, 27, 48);
+padding: 5px;
+margin: 10px;
+text-transform: capitalize;
+text-align:center;
+}
+.modeep{
+    width: 100%;
+    margin: 10px;
+    
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data-info .box{
+    background-color: black;
+color: aliceblue;
+height: 150px;
+width: 150px;
+flex-grow: 1;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.data-info .box:hover{
+    background-color: rgb(13, 95, 79);
+}
+table{
+    width: 100%;
+    text-align: center;
+    
+    color: white;
+    border-spacing: 1px;
+}
+span.salary{
+    color: #70d2a6;
+}
+span.count{
+    color:rgb(141, 21, 171) ;
+}
+thead{
+    background-color: rgb(20, 111, 191);
+}
+td, th{
+    height: 30px;
+    border-radius: 10px;
+background-color: black;    
+}
